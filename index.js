@@ -65,7 +65,7 @@ app.get('/connecttoMCData', function (request, responsefromWeb) {
 
 	axios({
 		method: 'post',
-		url: 'https://mch6zlw14tstgdw8kmyt93q5z7c0.auth.marketingcloudapis.com//hub/v1/dataevents/key:MonikaHintDE/rowset',
+		url: 'https://mch6zlw14tstgdw8kmyt93q5z7c0.rest.marketingcloudapis.com/hub/v1/dataevents/key:MonikaHintDE/rowset',
 		data: weatherData,
 		headers: {
 			'Authorization': 'Bearer ' + token,
